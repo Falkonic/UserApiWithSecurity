@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0iJcLRxZFEh4bFRZYEL8hqhyw7X0OTEvd4P2j7g1kis=",
+  "Source": "UserApiWithSecurity",
+  "BasePath": "_content/UserApiWithSecurity",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

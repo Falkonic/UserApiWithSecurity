@@ -1,0 +1,17 @@
+### Login als Benutzer
+POST https://yourapp.com/api/login
+Content-Type: application/json
+
+{
+  "username": "user1",
+  "password": "password123"
+}
+
+### Login als Admin
+POST https://yourapp.com/api/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}

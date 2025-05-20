@@ -18,3 +18,13 @@
 ## 🧪 Tests
 - Sicherheits-Unit-Tests mit xUnit
 - Tests für gültige und ungültige Logins
+
+## Vulnerabilities Fixed
+- SQL Injection: prevented by using parameterized queries.
+- Weak authentication: added role-based login for Admin/User.
+
+## Tests
+- xUnit tests simulate SQL injection attacks and test login success/failure.
+
+## Copilot Contribution
+Copilot suggested parameter usage, helped build authentication logic and test scaffolds.

@@ -38,6 +38,7 @@ class Program
             string query = "SELECT COUNT(*) FROM Users WHERE Username = @username AND PasswordHash = HASHBYTES('SHA2_256', @password)";
             using (SqlCommand cmd = new SqlCommand(query, conn))
             {
+                // Secure SQL using parameters to prevent SQL injection (suggested by Copilot)
                 cmd.Parameters.AddWithValue("@username", username);
                 cmd.Parameters.AddWithValue("@password", password);
                 int count = (int)cmd.ExecuteScalar();
@@ -45,7 +46,7 @@ class Program
             }
         }
     }
-
+// Role-based access: If user is admin, grant full access (generated with Copilot suggestion)
     static bool IsAdmin(string username)
     {
         // Beispiel: Rolle prüfen

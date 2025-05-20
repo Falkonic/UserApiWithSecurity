@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserApiWithSecurity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea0349b4877ad244edcd0444aad1e8ee8f566fa4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+181ac367a80b7f15c9570e9a64095c053bff4089")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserApiWithSecurity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserApiWithSecurity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
